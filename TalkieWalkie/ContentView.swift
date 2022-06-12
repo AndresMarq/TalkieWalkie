@@ -9,6 +9,9 @@ import SwiftUI
 import PushToTalk
 
 struct ContentView: View {
+    // Environment object for ContactsView & GroupView, class defined in Contact.swift
+    @StateObject var contacts = ContactList(list: [Contact]())
+    
     var body: some View {
         TabView {
             ContactsView()
@@ -26,6 +29,7 @@ struct ContentView: View {
                     Label("Settings", systemImage: "gear")
                 }
         }
+        .environmentObject(contacts)
     }
 }
 

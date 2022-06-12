@@ -15,6 +15,9 @@
 		926480BD285560A50022AC36 /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926480BC285560A50022AC36 /* GroupsView.swift */; };
 		926480BF285560AD0022AC36 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926480BE285560AD0022AC36 /* SettingsView.swift */; };
 		926480C1285566900022AC36 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926480C0285566900022AC36 /* Contact.swift */; };
+		926480C5285582150022AC36 /* MicrophoneButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926480C4285582150022AC36 /* MicrophoneButtonView.swift */; };
+		926480C7285587FA0022AC36 /* AddGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926480C6285587FA0022AC36 /* AddGroupView.swift */; };
+		926480C928559AB70022AC36 /* NameGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926480C828559AB70022AC36 /* NameGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		926480BC285560A50022AC36 /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
 		926480BE285560AD0022AC36 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		926480C0285566900022AC36 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		926480C4285582150022AC36 /* MicrophoneButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneButtonView.swift; sourceTree = "<group>"; };
+		926480C6285587FA0022AC36 /* AddGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupView.swift; sourceTree = "<group>"; };
+		926480C828559AB70022AC36 /* NameGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +72,10 @@
 				926480A7285552B20022AC36 /* TalkieWalkieApp.swift */,
 				926480A9285552B20022AC36 /* ContentView.swift */,
 				926480BA285560980022AC36 /* ContactsView.swift */,
+				926480C4285582150022AC36 /* MicrophoneButtonView.swift */,
 				926480BC285560A50022AC36 /* GroupsView.swift */,
+				926480C6285587FA0022AC36 /* AddGroupView.swift */,
+				926480C828559AB70022AC36 /* NameGroupView.swift */,
 				926480BE285560AD0022AC36 /* SettingsView.swift */,
 				926480C0285566900022AC36 /* Contact.swift */,
 				926480AB285552B30022AC36 /* Assets.xcassets */,
@@ -155,9 +164,12 @@
 			files = (
 				926480C1285566900022AC36 /* Contact.swift in Sources */,
 				926480BF285560AD0022AC36 /* SettingsView.swift in Sources */,
+				926480C928559AB70022AC36 /* NameGroupView.swift in Sources */,
 				926480BB285560980022AC36 /* ContactsView.swift in Sources */,
 				926480AA285552B20022AC36 /* ContentView.swift in Sources */,
 				926480BD285560A50022AC36 /* GroupsView.swift in Sources */,
+				926480C5285582150022AC36 /* MicrophoneButtonView.swift in Sources */,
+				926480C7285587FA0022AC36 /* AddGroupView.swift in Sources */,
 				926480A8285552B20022AC36 /* TalkieWalkieApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

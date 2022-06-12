@@ -6,7 +6,15 @@
 //
 
 import Foundation
-// Struct Contact used for ContactsView & GroupsView. Not persistence yet, not sure if we'll have to store contacts info in backend
+// Class Contact used for ContactsView & GroupsView. Not persistence yet, not sure if we'll have to store contacts info in backend
+
+class ContactList: ObservableObject {
+    @Published var list: [Contact]
+    
+    init(list: [Contact]) {
+        self.list = list
+    }
+}
 
 struct Contact: Identifiable {
     var name: String

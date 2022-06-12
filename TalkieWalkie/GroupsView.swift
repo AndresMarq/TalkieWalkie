@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct GroupsView: View {
+    @State private var isShowingAddGroupSheet = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Text("")
+            .navigationTitle("Group Chat")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        isShowingAddGroupSheet = true
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+                }
+            }
+            .sheet(isPresented: $isShowingAddGroupSheet) {
+                AddGroupView()
+                    .presentationDetents([.medium, .large])
+            }
+        }
     }
 }
 
