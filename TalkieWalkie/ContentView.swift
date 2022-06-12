@@ -10,11 +10,21 @@ import PushToTalk
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            ContactsView()
+                .tabItem {
+                    Label("Contacts", systemImage: "person.crop.circle")
+                }
+                
+            GroupsView()
+                .tabItem {
+                    Label("Groups", systemImage: "person.3")
+                }
+            
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "gear")
+                }
         }
     }
 }

@@ -11,6 +11,10 @@
 		926480AA285552B20022AC36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926480A9285552B20022AC36 /* ContentView.swift */; };
 		926480AC285552B30022AC36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926480AB285552B30022AC36 /* Assets.xcassets */; };
 		926480AF285552B30022AC36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926480AE285552B30022AC36 /* Preview Assets.xcassets */; };
+		926480BB285560980022AC36 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926480BA285560980022AC36 /* ContactsView.swift */; };
+		926480BD285560A50022AC36 /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926480BC285560A50022AC36 /* GroupsView.swift */; };
+		926480BF285560AD0022AC36 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926480BE285560AD0022AC36 /* SettingsView.swift */; };
+		926480C1285566900022AC36 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926480C0285566900022AC36 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		926480AE285552B30022AC36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		926480B8285554C10022AC36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		926480B9285558350022AC36 /* TalkieWalkie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TalkieWalkie.entitlements; sourceTree = "<group>"; };
+		926480BA285560980022AC36 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		926480BC285560A50022AC36 /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
+		926480BE285560AD0022AC36 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		926480C0285566900022AC36 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				926480B8285554C10022AC36 /* Info.plist */,
 				926480A7285552B20022AC36 /* TalkieWalkieApp.swift */,
 				926480A9285552B20022AC36 /* ContentView.swift */,
+				926480BA285560980022AC36 /* ContactsView.swift */,
+				926480BC285560A50022AC36 /* GroupsView.swift */,
+				926480BE285560AD0022AC36 /* SettingsView.swift */,
+				926480C0285566900022AC36 /* Contact.swift */,
 				926480AB285552B30022AC36 /* Assets.xcassets */,
 				926480AD285552B30022AC36 /* Preview Content */,
 			);
@@ -141,7 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926480C1285566900022AC36 /* Contact.swift in Sources */,
+				926480BF285560AD0022AC36 /* SettingsView.swift in Sources */,
+				926480BB285560980022AC36 /* ContactsView.swift in Sources */,
 				926480AA285552B20022AC36 /* ContentView.swift in Sources */,
+				926480BD285560A50022AC36 /* GroupsView.swift in Sources */,
 				926480A8285552B20022AC36 /* TalkieWalkieApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
