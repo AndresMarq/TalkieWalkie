@@ -20,26 +20,17 @@ struct AddGroupView: View {
                         Text("\(contact.name)")
                         Spacer()
                         Button {
+                            // Status for whether the contact is selected or not
                             buttonStatus.toggle()
-                            selectContact(id: contact.id)
+                            
                         } label: {
-                            Image(systemName: buttonStatus ? "circle" : "circle.fill")
+                            Image(systemName: buttonStatus ? "circle.fill" : "circle")
                         }
                     }
                 }
             }
         }
         .navigationTitle("Create Group")
-    }
-    
-    func selectContact(id: UUID) {
-        if selectedContacts.contains(id) {
-            if let index = selectedContacts.firstIndex(of: id) {
-                selectedContacts.remove(at: index)
-            }
-        } else {
-            selectedContacts.append(id)
-        }
     }
 }
 
